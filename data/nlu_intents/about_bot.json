@@ -1,0 +1,21 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [],
+    "entity_synonyms": [],
+    "common_examples": [
+      {
+        "text": "tell me about yourself",
+        "intent": "about_bot",
+        "entities": []
+      },
+      {"text": "about you", "intent": "about_bot", "entities": []},
+      {"text": "What can you do?", "intent": "about_bot", "entities": []},
+      {"text": "what are you", "intent": "about_bot", "entities": []},
+      {
+        "text": "what are your capabilities",
+        "intent": "about_bot",
+        "entities": []
+      }
+    ]
+  }
+}

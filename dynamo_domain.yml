@@ -1,0 +1,92 @@
+intents:
+- greet
+- goodbye
+- about_bot
+- about_company
+- faq_data
+
+entities:
+- companylocation
+- costdetails
+- partners
+- services
+- lenders
+- mortgagetype
+- legal
+- offers
+
+templates:
+  utter_greet:
+    - "Hello there! how can I help"
+    - "How can I help!"
+    - "Hi There!"
+    - "Hi. how can I help"
+  utter_goodbye:
+    - "Thanks for the chit chat. Bye!"
+    - "Bye"
+    - "goodbye"
+    - "Have a nice day!"
+  utter_about_bot:
+    - "Here are all the activities I can do : 1. xxx 2.yyy 3. zzz"
+  utter_about_company_details:
+    - "Dynamo is a brand new way to remortgage. But we aren’t newcomers. We’re building on 25 years of mortgage experience.
+       To build a tool that empowers you, we’re building a forward-thinking, empowered team.
+       Co-founded by Dan Cobley, former head of Google in the UK and Ireland,
+       Dynamo is bringing together a team of world class designers, developers,
+       data scientists, and mortgage experts, harnessing their talent, passion
+       and diverse thinking to change the mortgage industry"
+  utter_about_company_location:
+    - "Our Website: https://dynamo.co.uk/about,
+       Our Location: 1 Hammersmith Broadway, London, W6 9DL"
+  utter_cost:
+    - "Dynamo can currently advise on and arrange residential remortgages. If you’re a first-time buyer, or you’re looking for a mortgage for a residential house purchase or a buy-to-let property, we'll be offering those services soon.
+       Can’t wait? Get in touch with a Countrywide Mortgage Line adviser directly.
+       You can contact them via email at contact@countrywidemortgageline.co.uk, or give them a call on 01276 903 272."
+  utter_partners:
+    - "Dynamo is a partnership between Countrywide, the UK’s largest mortgage broker,
+       and Blenheim Chalcot, the UK’s leading digital venture builder.
+       We combine 25 years of mortgage experience with the expertise behind leading FinTech businesses such as ClearScore and Salary Finance.
+       You’re in safe hands."
+  utter_services:
+    - ""
+  utter_legal:
+    - "Dynamo Mortgages Limited is an appointed representative of Countrywide Principal Services Ltd,
+       which is authorised and regulated by the FCA."
+  utter_lenders:
+    - "Accord
+       Aldermore
+       Bank of Ireland
+       Barclays
+       Clydesdale Yorkshire Bank Group
+       Coventry
+       Halifax
+       HSBC
+       Kensington
+       Leeds Building Society
+       Nationwide
+       NatWest
+       Nottingham Building Society
+       Platform
+       Precise Mortgages
+       Principality Building Society
+       Santander
+       Skipton Building Society
+       Virgin Money"
+  utter_offers:
+    - "Dynamo can currently advise on and arrange residential remortgages.
+      If you’re a first-time buyer, or you’re looking for a mortgage for a residential house purchase or a buy-to-let property, we'll be offering those services soon.
+      Can’t wait? Get in touch with a Countrywide Mortgage Line adviser directly.
+      You can contact them via email at contact@countrywidemortgageline.co.uk, or give them a call on 01276 903 272."
+
+actions:
+- utter_greet
+- utter_goodbye
+- utter_about_bot
+- utter_about_company_details
+- utter_about_company_location
+- utter_cost
+- utter_partners
+- utter_services
+- utter_legal
+- utter_lenders
+- utter_offers

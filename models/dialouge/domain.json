@@ -1,0 +1,30 @@
+{
+  "states": [
+    "intent_greet", 
+    "intent_goodbye", 
+    "intent_about_bot", 
+    "intent_about_company", 
+    "intent_faq_data", 
+    "entity_companylocation", 
+    "entity_costdetails", 
+    "entity_partners", 
+    "entity_services", 
+    "entity_lenders", 
+    "entity_mortgagetype", 
+    "entity_legal", 
+    "entity_offers", 
+    "prev_action_listen", 
+    "prev_action_restart", 
+    "prev_utter_greet", 
+    "prev_utter_goodbye", 
+    "prev_utter_about_bot", 
+    "prev_utter_about_company_details", 
+    "prev_utter_about_company_location", 
+    "prev_utter_cost", 
+    "prev_utter_partners", 
+    "prev_utter_services", 
+    "prev_utter_legal", 
+    "prev_utter_lenders", 
+    "prev_utter_offers"
+  ]
+}

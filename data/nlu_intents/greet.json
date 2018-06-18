@@ -1,0 +1,13 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [],
+    "entity_synonyms": [],
+    "common_examples": [
+      {"text": "hi Dynamo", "intent": "greet", "entities": []},
+      {"text": "greetings", "intent": "greet", "entities": []},
+      {"text": "hi", "intent": "greet", "entities": []},
+      {"text": "hello Dynamo", "intent": "greet", "entities": []},
+      {"text": "hey Dynamo", "intent": "greet", "entities": []}
+    ]
+  }
+}

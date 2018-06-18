@@ -1,0 +1,13 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [],
+    "entity_synonyms": [],
+    "common_examples": [
+      {"text": "have a nice day", "intent": "goodbye", "entities": []},
+      {"text": "bye Dynamo", "intent": "goodbye", "entities": []},
+      {"text": "goodbye Dynamo", "intent": "goodbye", "entities": []},
+      {"text": "cya", "intent": "goodbye", "entities": []},
+      {"text": "bye", "intent": "goodbye", "entities": []}
+    ]
+  }
+}
