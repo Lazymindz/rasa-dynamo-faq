@@ -1,83 +1,1219 @@
 {
   "rasa_nlu_data": {
     "regex_features": [],
-    "entity_synonyms": [
-      {
-        "value": "location",
-        "synonyms": [
-          "located",
-          "loc"
-        ]
-      }
-    ],
+    "entity_synonyms": [],
     "common_examples": [
       {
-        "text": "tell me about Dynamo",
+        "text": "greetings pls who are",
         "intent": "about_company",
         "entities": []
       },
       {
-        "text": "Tell me about your company",
+        "text": "hey Dynamo please what is Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {"text": "hello tell Dynamo", "intent": "about_company", "entities": []},
+      {
+        "text": "hi Dynamo pls say about",
         "intent": "about_company",
         "entities": []
       },
       {
-        "text": "Where are Dynamo located in London",
+        "text": "Dynamo please say about Dynamo",
         "intent": "about_company",
-        "entities": [
-          {
-            "start": 28,
-            "end": 34,
-            "value": "London",
-            "entity": "companylocation"
-          }
-        ]
+        "entities": []
       },
+      {"text": "hey what is", "intent": "about_company", "entities": []},
       {
-        "text": "What is Dynamo's location?",
+        "text": "hello who are Dynamo",
         "intent": "about_company",
-        "entities": [
-          {
-            "start": 17,
-            "end": 25,
-            "value": "location",
-            "entity": "companylocation"
-          }
-        ]
+        "entities": []
       },
+      {"text": "Dynamo pls tell", "intent": "about_company", "entities": []},
+      {"text": "hi please who are", "intent": "about_company", "entities": []},
       {
-        "text": "Who are Dynamo",
+        "text": "greetings Dynamo pls say about Dynamo",
         "intent": "about_company",
         "entities": []
       },
       {
-        "text": "What is that your company do",
+        "text": "hello Dynamo what is Dynamo",
         "intent": "about_company",
         "entities": []
       },
       {
-        "text": "Where are you located",
+        "text": "greetings please tell",
         "intent": "about_company",
-        "entities": [
-          {
-            "start": 14,
-            "end": 21,
-            "value": "located",
-            "entity": "companylocation"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "In which location are you working",
+        "text": "Dynamo please say about",
         "intent": "about_company",
-        "entities": [
-          {
-            "start": 9,
-            "end": 17,
-            "value": "location",
-            "entity": "companylocation"
-          }
-        ]
+        "entities": []
+      },
+      {"text": "hi who are Dynamo", "intent": "about_company", "entities": []},
+      {
+        "text": "hey Dynamo pls tell",
+        "intent": "about_company",
+        "entities": []
+      },
+      {
+        "text": "hey please what is Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {
+        "text": "greetings say about",
+        "intent": "about_company",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo please what is Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {
+        "text": "hello Dynamo pls tell Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {"text": "hi who are", "intent": "about_company", "entities": []},
+      {
+        "text": "greetings Dynamo please say about Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {"text": "pls what is", "intent": "about_company", "entities": []},
+      {"text": "hey please what is", "intent": "about_company", "entities": []},
+      {
+        "text": "Dynamo say about Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {"text": "hi pls tell", "intent": "about_company", "entities": []},
+      {
+        "text": "hello Dynamo who are Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo please who are Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {"text": "greetings pls tell", "intent": "about_company", "entities": []},
+      {
+        "text": "hey Dynamo pls say about",
+        "intent": "about_company",
+        "entities": []
+      },
+      {
+        "text": "greetings what is Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {"text": "hi please tell", "intent": "about_company", "entities": []},
+      {
+        "text": "hello Dynamo please say about Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {"text": "who are", "intent": "about_company", "entities": []},
+      {
+        "text": "hello Dynamo pls what is Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {"text": "pls say about", "intent": "about_company", "entities": []},
+      {
+        "text": "greetings Dynamo please who are Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {"text": "hi what is Dynamo", "intent": "about_company", "entities": []},
+      {"text": "hey Dynamo tell", "intent": "about_company", "entities": []},
+      {
+        "text": "hello pls what is Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo please say about",
+        "intent": "about_company",
+        "entities": []
+      },
+      {"text": "pls who are", "intent": "about_company", "entities": []},
+      {
+        "text": "hey Dynamo tell Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo please who are Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {"text": "hey pls what is", "intent": "about_company", "entities": []},
+      {
+        "text": "hi Dynamo tell Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {"text": "please say about", "intent": "about_company", "entities": []},
+      {
+        "text": "greetings please who are",
+        "intent": "about_company",
+        "entities": []
+      },
+      {"text": "hi pls tell Dynamo", "intent": "about_company", "entities": []},
+      {
+        "text": "hello Dynamo say about",
+        "intent": "about_company",
+        "entities": []
+      },
+      {
+        "text": "please who are Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo pls what is Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {"text": "Dynamo say about", "intent": "about_company", "entities": []},
+      {
+        "text": "hello what is Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo please who are",
+        "intent": "about_company",
+        "entities": []
+      },
+      {
+        "text": "greetings pls tell Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {"text": "Dynamo tell Dynamo", "intent": "about_company", "entities": []},
+      {
+        "text": "hello pls say about",
+        "intent": "about_company",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo pls tell Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo say about",
+        "intent": "about_company",
+        "entities": []
+      },
+      {
+        "text": "please what is Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {
+        "text": "hey pls who are Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {
+        "text": "hi please what is Dynamo",
+        "intent": "about_company",
+        "entities": []
+      },
+      {
+        "text": "hello Dynamo please say about",
+        "intent": "about_company",
+        "entities": []
+      },
+      {"text": "hi Dynamo tell", "intent": "about_company", "entities": []},
+      {
+        "text": "hey of services does you offer",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo which types mortgages do company offers?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hello what type on capabilitites Dynamo market?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo different kind on remortgages does company sell",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "Dynamo different types of services do you offers",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "greetings which kind capabilitites Dynamo market?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo type mortgages does company offer",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "what of remortgages do Dynamo sell?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hello Dynamo kind on services you offers",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hi which on capabilitites does Dynamo offer?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hi different types of mortgages do you market?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo what type remortgages company sell",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "Dynamo different types mortgages do Dynamo offers",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hey which type on capabilitites you offer?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hello Dynamo of remortgages does company market?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "greetings what kind services you sell",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hey which on mortgages does Dynamo offers?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hello Dynamo what type of remortgages do company sell",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "Dynamo types on capabilitites Dynamo market?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hi different kind of services does company offer",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hello what types mortgages do you offers",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo which capabilitites do Dynamo offer?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "Dynamo different kind of services does company sell?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hi type on remortgages you market",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo different mortgages does Dynamo offers?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hi which kind on services company offer",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo what types of remortgages do you market?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hello type on capabilitites does Dynamo sell",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "greetings different type remortgages you market?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "Dynamo what types of mortgages do company offer",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hey services Dynamo offers?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo which kind of capabilitites do company sell",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hello type on remortgages does you market?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo what kind of services you offer",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "Dynamo different types on mortgages does Dynamo offers?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hi which capabilitites do company sell",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hey types capabilitites does company offer?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "Dynamo different type on mortgages do you market",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo which of remortgages Dynamo offers?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hello what kind of services does company sell",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "Dynamo which types on remortgages you offers?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hello type capabilitites do Dynamo sell",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo different kind of mortgages do company market",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hey what on services Dynamo offer?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo remortgages does you sell?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "what type services do you offer",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hey which types on mortgages does Dynamo market",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo different kind of capabilitites company offers?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hi different type of remortgages does you market",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hello Dynamo what kind on capabilitites do company offer?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo types mortgages Dynamo offers?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "which on services does Dynamo sell",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hey types of mortgages do company offer?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo different type remortgages you sell",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hello Dynamo what of capabilitites do you offers?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hi which kind on services company market",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "which mortgages does Dynamo offer",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo different type remortgages you offers?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hello what types of services does Dynamo sell?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo kind on capabilitites do company market",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hey what capabilitites do you offers",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo kind of remortgages company sell?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hi which types on mortgages does Dynamo market?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "Dynamo different type on services you offer",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hello Dynamo what capabilitites do company offers",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "kind of mortgages does Dynamo offer?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo different type on remortgages does you sell",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "greetings which types of services do Dynamo market?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hello which remortgages company sell?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo kind mortgages does Dynamo offers",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hello Dynamo different types on capabilitites you market?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hey what type of services do company offer",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hi types capabilitites do you market?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo which of remortgages company offer",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "different kind on mortgages does Dynamo sell",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo what type services does company offers?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hello different type on remortgages do you sell",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "Dynamo of capabilitites Dynamo offers?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo which types services do you market?",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "hi what kind of mortgages does Dynamo offer",
+        "intent": "about_services",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo who represent company",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {"text": "fund dynamo", "intent": "about_services", "entities": []},
+      {
+        "text": "hey Dynamo partners for dynamo",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "hello support behind company",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo for company",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "greetings sponsor behind dynamo",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "support represent dynamo",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo fund company",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "hi partners behind dynamo",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "hello Dynamo who company",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo sponsor represent company",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {"text": "hey for dynamo", "intent": "about_services", "entities": []},
+      {
+        "text": "hi fund for company",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "hello Dynamo represent dynamo",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "who behind company",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo partners dynamo",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "hello Dynamo sponsor behind dynamo",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "hi support represent company",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo who for company",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "hello sponsor behind dynamo",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo support for company",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "hi partners represent dynamo",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo company",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "hello Dynamo partners represent company",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo support behind dynamo",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "sponsor for company",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {"text": "hi dynamo", "intent": "about_services", "entities": []},
+      {
+        "text": "hey Dynamo sponsor for dynamo",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo partners represent company",
+        "intent": "about_partners",
+        "entities": []
+      },
+      {"text": "fund for dynamo", "intent": "about_services", "entities": []},
+      {
+        "text": "hello which suppliers company supply alongside",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo type of lenders dynamo work",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "hey what suppliers with",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "Dynamo lenders you supply along with",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "hi what suppliers for",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "hello Dynamo which lenders dynamo work with",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo type of lenders company for",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "greetings suppliers you supply along with",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "type of lenders you work",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo suppliers dynamo work alongside",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo what lenders company for",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "hi which suppliers supply with",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "hey what lenders dynamo supply",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "hello Dynamo suppliers alongside",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "type of suppliers company work along with",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo which lenders you supply for",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "Dynamo what suppliers dynamo",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "hi type of lenders company work along with",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo suppliers alongside",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "hello which lenders you work with",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "Dynamo what suppliers company supply",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "hey lenders dynamo work alongside",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "hi type of lenders with",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo which suppliers you supply along with",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "hello what lenders dynamo supply for",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo which lenders company work",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "type of suppliers you work for",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "hello which suppliers you with",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo type of lenders company supply along with",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "hey lenders work along with",
+        "intent": "about_lenders",
+        "entities": []
+      },
+      {
+        "text": "hello services price anything?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo are your cost ?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo do company assistance charge free?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "greetings will your price free?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "Dynamo do assistance charge anything?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "hey company services cost ?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo are company price ?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "hello will assistance cost free?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo will your services charge anything?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "your assistance price anything?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "hello Dynamo do company cost free?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "hey are services charge ?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "Dynamo price free?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "greetings are company assistance charge ?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo do your services cost anything?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "hello will your charge free?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "greetings company services cost anything?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "Dynamo will assistance price ?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo do your services price ?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "hi are cost free?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo do company assistance charge anything?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "greetings will your price ?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "are services charge anything?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo company assistance cost free?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "hello will services charge free?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo company price ?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "Dynamo do your assistance cost anything?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "hi are services price anything?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "hey your assistance charge free?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "hello Dynamo will company cost ?",
+        "intent": "about_cost_to_serve",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo is registered status",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "hi your governed",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "greetings about company valid standing",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "Dynamo is company legal status",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {"text": "hello legal", "intent": "about_legal_status", "entities": []},
+      {
+        "text": "hello Dynamo about your registered standing",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo about valid",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "hi your governed standing",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "greetings is company registered status",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "Dynamo company valid status",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "hey about governed",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "hello Dynamo is your legal standing",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "greetings is company legal standing",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo your registered",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "Dynamo about valid status",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "hello governed status",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo about your legal standing",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "is company governed",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "greetings is your valid standing",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo about company registered",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo governed status",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "registered standing",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo is your legal",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "hello about company valid status",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "greetings Dynamo your governed",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "greetings about registered standing",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "hey Dynamo is company valid status",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "is company legal standing",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "hello registered status",
+        "intent": "about_legal_status",
+        "entities": []
+      },
+      {
+        "text": "hi Dynamo about your valid",
+        "intent": "about_legal_status",
+        "entities": []
       }
     ]
   }

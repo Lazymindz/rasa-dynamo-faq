@@ -2,7 +2,19 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "text": "tell me about yourself", 
+        "text": "What are you capabilities Dynamo", 
+        "intent": "about_bot"
+      }, 
+      {
+        "text": "who are you", 
+        "intent": "about_bot"
+      }, 
+      {
+        "text": "what can you do Dynamo", 
+        "intent": "about_bot"
+      }, 
+      {
+        "text": "tell me about you", 
         "intent": "about_bot"
       }, 
       {
@@ -10,83 +22,1091 @@
         "intent": "about_bot"
       }, 
       {
-        "text": "What can you do?", 
+        "text": "Dynamo", 
         "intent": "about_bot"
       }, 
       {
-        "text": "what are you", 
+        "text": "What are you capabilities", 
         "intent": "about_bot"
       }, 
       {
-        "text": "what are your capabilities", 
+        "text": "tell me about you Dynamo", 
         "intent": "about_bot"
       }, 
       {
-        "text": "tell me about Dynamo", 
+        "text": "who are you Dynamo", 
+        "intent": "about_bot"
+      }, 
+      {
+        "text": "what can you do", 
+        "intent": "about_bot"
+      }, 
+      {
+        "text": "about you Dynamo", 
+        "intent": "about_bot"
+      }, 
+      {
+        "text": "greetings pls who are", 
         "intent": "about_company"
       }, 
       {
-        "text": "Tell me about your company", 
+        "text": "hey Dynamo please what is Dynamo", 
         "intent": "about_company"
       }, 
       {
-        "entities": [
-          {
-            "start": 28, 
-            "end": 34, 
-            "value": "London", 
-            "entity": "companylocation"
-          }
-        ], 
-        "intent": "about_company", 
-        "text": "Where are Dynamo located in London"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 17, 
-            "end": 25, 
-            "value": "location", 
-            "entity": "companylocation"
-          }
-        ], 
-        "intent": "about_company", 
-        "text": "What is Dynamo's location?"
-      }, 
-      {
-        "text": "Who are Dynamo", 
+        "text": "hello tell Dynamo", 
         "intent": "about_company"
       }, 
       {
-        "text": "What is that your company do", 
+        "text": "hi Dynamo pls say about", 
         "intent": "about_company"
       }, 
       {
-        "entities": [
-          {
-            "start": 14, 
-            "end": 21, 
-            "value": "located", 
-            "entity": "companylocation"
-          }
-        ], 
-        "intent": "about_company", 
-        "text": "Where are you located"
+        "text": "Dynamo please say about Dynamo", 
+        "intent": "about_company"
       }, 
       {
-        "entities": [
-          {
-            "start": 9, 
-            "end": 17, 
-            "value": "location", 
-            "entity": "companylocation"
-          }
-        ], 
-        "intent": "about_company", 
-        "text": "In which location are you working"
+        "text": "hey what is", 
+        "intent": "about_company"
       }, 
       {
-        "text": "hi Dynamo", 
+        "text": "hello who are Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "Dynamo pls tell", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hi please who are", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "greetings Dynamo pls say about Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hello Dynamo what is Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "greetings please tell", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "Dynamo please say about", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hi who are Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hey Dynamo pls tell", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hey please what is Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "greetings say about", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hi Dynamo please what is Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hello Dynamo pls tell Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hi who are", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "greetings Dynamo please say about Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "pls what is", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hey please what is", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "Dynamo say about Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hi pls tell", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hello Dynamo who are Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hey Dynamo please who are Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "greetings pls tell", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hey Dynamo pls say about", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "greetings what is Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hi please tell", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hello Dynamo please say about Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "who are", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hello Dynamo pls what is Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "pls say about", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "greetings Dynamo please who are Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hi what is Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hey Dynamo tell", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hello pls what is Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "greetings Dynamo please say about", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "pls who are", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hey Dynamo tell Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hi Dynamo please who are Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hey pls what is", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hi Dynamo tell Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "please say about", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "greetings please who are", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hi pls tell Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hello Dynamo say about", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "please who are Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hi Dynamo pls what is Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "Dynamo say about", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hello what is Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hey Dynamo please who are", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "greetings pls tell Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "Dynamo tell Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hello pls say about", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "greetings Dynamo pls tell Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hi Dynamo say about", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "please what is Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hey pls who are Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hi please what is Dynamo", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hello Dynamo please say about", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hi Dynamo tell", 
+        "intent": "about_company"
+      }, 
+      {
+        "text": "hey of services does you offer", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "greetings Dynamo which types mortgages do company offers?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hello what type on capabilitites Dynamo market?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hi Dynamo different kind on remortgages does company sell", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "Dynamo different types of services do you offers", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "greetings which kind capabilitites Dynamo market?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hey Dynamo type mortgages does company offer", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "what of remortgages do Dynamo sell?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hello Dynamo kind on services you offers", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hi which on capabilitites does Dynamo offer?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hi different types of mortgages do you market?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "greetings Dynamo what type remortgages company sell", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "Dynamo different types mortgages do Dynamo offers", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hey which type on capabilitites you offer?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hello Dynamo of remortgages does company market?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "greetings what kind services you sell", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hey which on mortgages does Dynamo offers?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hello Dynamo what type of remortgages do company sell", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "Dynamo types on capabilitites Dynamo market?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hi different kind of services does company offer", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hello what types mortgages do you offers", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hey Dynamo which capabilitites do Dynamo offer?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "Dynamo different kind of services does company sell?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hi type on remortgages you market", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "greetings Dynamo different mortgages does Dynamo offers?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hi which kind on services company offer", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hey Dynamo what types of remortgages do you market?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hello type on capabilitites does Dynamo sell", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "greetings different type remortgages you market?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "Dynamo what types of mortgages do company offer", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hey services Dynamo offers?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "greetings Dynamo which kind of capabilitites do company sell", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hello type on remortgages does you market?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hi Dynamo what kind of services you offer", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "Dynamo different types on mortgages does Dynamo offers?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hi which capabilitites do company sell", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hey types capabilitites does company offer?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "Dynamo different type on mortgages do you market", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "greetings Dynamo which of remortgages Dynamo offers?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hello what kind of services does company sell", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "Dynamo which types on remortgages you offers?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hello type capabilitites do Dynamo sell", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hi Dynamo different kind of mortgages do company market", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hey what on services Dynamo offer?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "greetings Dynamo remortgages does you sell?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "what type services do you offer", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hey which types on mortgages does Dynamo market", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "greetings Dynamo different kind of capabilitites company offers?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hi different type of remortgages does you market", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hello Dynamo what kind on capabilitites do company offer?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hi Dynamo types mortgages Dynamo offers?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "which on services does Dynamo sell", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hey types of mortgages do company offer?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "greetings Dynamo different type remortgages you sell", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hello Dynamo what of capabilitites do you offers?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hi which kind on services company market", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "which mortgages does Dynamo offer", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hey Dynamo different type remortgages you offers?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hello what types of services does Dynamo sell?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "greetings Dynamo kind on capabilitites do company market", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hey what capabilitites do you offers", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "greetings Dynamo kind of remortgages company sell?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hi which types on mortgages does Dynamo market?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "Dynamo different type on services you offer", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hello Dynamo what capabilitites do company offers", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "kind of mortgages does Dynamo offer?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hi Dynamo different type on remortgages does you sell", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "greetings which types of services do Dynamo market?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hello which remortgages company sell?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hey Dynamo kind mortgages does Dynamo offers", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hello Dynamo different types on capabilitites you market?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hey what type of services do company offer", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hi types capabilitites do you market?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "greetings Dynamo which of remortgages company offer", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "different kind on mortgages does Dynamo sell", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "greetings Dynamo what type services does company offers?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hello different type on remortgages do you sell", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "Dynamo of capabilitites Dynamo offers?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hey Dynamo which types services do you market?", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hi what kind of mortgages does Dynamo offer", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "greetings Dynamo who represent company", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "fund dynamo", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hey Dynamo partners for dynamo", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "hello support behind company", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "hi Dynamo for company", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "greetings sponsor behind dynamo", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "support represent dynamo", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "hey Dynamo fund company", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "hi partners behind dynamo", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "hello Dynamo who company", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "greetings Dynamo sponsor represent company", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "hey for dynamo", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hi fund for company", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "hello Dynamo represent dynamo", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "who behind company", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "hey Dynamo partners dynamo", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "hello Dynamo sponsor behind dynamo", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "hi support represent company", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "greetings Dynamo who for company", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "hello sponsor behind dynamo", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "hey Dynamo support for company", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "hi partners represent dynamo", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "greetings Dynamo company", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "hello Dynamo partners represent company", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "hey Dynamo support behind dynamo", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "sponsor for company", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "hi dynamo", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hey Dynamo sponsor for dynamo", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "hi Dynamo partners represent company", 
+        "intent": "about_partners"
+      }, 
+      {
+        "text": "fund for dynamo", 
+        "intent": "about_services"
+      }, 
+      {
+        "text": "hello which suppliers company supply alongside", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "greetings Dynamo type of lenders dynamo work", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "hey what suppliers with", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "Dynamo lenders you supply along with", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "hi what suppliers for", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "hello Dynamo which lenders dynamo work with", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "hi Dynamo type of lenders company for", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "greetings suppliers you supply along with", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "type of lenders you work", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "hey Dynamo suppliers dynamo work alongside", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "greetings Dynamo what lenders company for", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "hi which suppliers supply with", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "hey what lenders dynamo supply", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "hello Dynamo suppliers alongside", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "type of suppliers company work along with", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "greetings Dynamo which lenders you supply for", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "Dynamo what suppliers dynamo", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "hi type of lenders company work along with", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "hey Dynamo suppliers alongside", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "hello which lenders you work with", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "Dynamo what suppliers company supply", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "hey lenders dynamo work alongside", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "hi type of lenders with", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "greetings Dynamo which suppliers you supply along with", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "hello what lenders dynamo supply for", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "hi Dynamo which lenders company work", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "type of suppliers you work for", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "hello which suppliers you with", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "greetings Dynamo type of lenders company supply along with", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "hey lenders work along with", 
+        "intent": "about_lenders"
+      }, 
+      {
+        "text": "hello services price anything?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "hey Dynamo are your cost ?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "hi Dynamo do company assistance charge free?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "greetings will your price free?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "Dynamo do assistance charge anything?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "hey company services cost ?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "hi Dynamo are company price ?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "hello will assistance cost free?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "greetings Dynamo will your services charge anything?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "your assistance price anything?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "hello Dynamo do company cost free?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "hey are services charge ?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "Dynamo price free?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "greetings are company assistance charge ?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "hi Dynamo do your services cost anything?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "hello will your charge free?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "greetings company services cost anything?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "Dynamo will assistance price ?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "hey Dynamo do your services price ?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "hi are cost free?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "hey Dynamo do company assistance charge anything?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "greetings will your price ?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "are services charge anything?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "hi Dynamo company assistance cost free?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "hello will services charge free?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "greetings Dynamo company price ?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "Dynamo do your assistance cost anything?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "hi are services price anything?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "hey your assistance charge free?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "hello Dynamo will company cost ?", 
+        "intent": "about_cost_to_serve"
+      }, 
+      {
+        "text": "hey Dynamo is registered status", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "hi your governed", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "greetings about company valid standing", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "Dynamo is company legal status", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "hello legal", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "hello Dynamo about your registered standing", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "hey Dynamo about valid", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "hi your governed standing", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "greetings is company registered status", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "Dynamo company valid status", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "hey about governed", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "hello Dynamo is your legal standing", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "greetings is company legal standing", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "hi Dynamo your registered", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "Dynamo about valid status", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "hello governed status", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "hi Dynamo about your legal standing", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "is company governed", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "greetings is your valid standing", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "hey Dynamo about company registered", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "hey Dynamo governed status", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "registered standing", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "hi Dynamo is your legal", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "hello about company valid status", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "greetings Dynamo your governed", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "greetings about registered standing", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "hey Dynamo is company valid status", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "is company legal standing", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "hello registered status", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "hi Dynamo about your valid", 
+        "intent": "about_legal_status"
+      }, 
+      {
+        "text": "hello Dynamo", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hey Dynamo", 
         "intent": "greet"
       }, 
       {
@@ -98,187 +1118,47 @@
         "intent": "greet"
       }, 
       {
-        "text": "hello Dynamo", 
+        "text": "how are you Dynamo", 
         "intent": "greet"
       }, 
       {
-        "text": "hey Dynamo", 
+        "text": "hello", 
         "intent": "greet"
       }, 
       {
-        "text": "What is Dynamo?", 
-        "intent": "faq_data"
+        "text": "hi Dynamo", 
+        "intent": "greet"
       }, 
       {
-        "entities": [
-          {
-            "start": 17, 
-            "end": 21, 
-            "value": "cost", 
-            "entity": "costdetails"
-          }, 
-          {
-            "start": 8, 
-            "end": 16, 
-            "value": "services", 
-            "entity": "costdetails"
-          }
-        ], 
-        "intent": "faq_data", 
-        "text": "Do your services cost anything?"
+        "text": "hey", 
+        "intent": "greet"
       }, 
       {
-        "entities": [
-          {
-            "start": 17, 
-            "end": 25, 
-            "value": "partners", 
-            "entity": "partners"
-          }
-        ], 
-        "intent": "faq_data", 
-        "text": "Who are Dynamo's partners?"
+        "text": "greetings Dynamo", 
+        "intent": "greet"
       }, 
       {
-        "entities": [
-          {
-            "start": 21, 
-            "end": 26, 
-            "value": "price", 
-            "entity": "costdetails"
-          }, 
-          {
-            "start": 13, 
-            "end": 20, 
-            "value": "service", 
-            "entity": "offers"
-          }
-        ], 
-        "intent": "faq_data", 
-        "text": "What are the service price details?"
+        "text": "Dynamo", 
+        "intent": "greet"
       }, 
       {
-        "entities": [
-          {
-            "start": 6, 
-            "end": 13, 
-            "value": "lenders", 
-            "entity": "lenders"
-          }
-        ], 
-        "intent": "faq_data", 
-        "text": "Which lenders do you work with?"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 14, 
-            "end": 22, 
-            "value": "partners", 
-            "entity": "partners"
-          }
-        ], 
-        "intent": "faq_data", 
-        "text": "Are there any partners for Dynamo?"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 6, 
-            "end": 15, 
-            "value": "companies", 
-            "entity": "lenders"
-          }
-        ], 
-        "intent": "faq_data", 
-        "text": "which companies do you work with?"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 31, 
-            "end": 36, 
-            "value": "offer", 
-            "entity": "offers"
-          }
-        ], 
-        "intent": "faq_data", 
-        "text": "What type of Mortagages do you offer?"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 8, 
-            "end": 17, 
-            "value": "Regulated", 
-            "entity": "legal"
-          }
-        ], 
-        "intent": "faq_data", 
-        "text": "Are you Regulated?"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 16, 
-            "end": 21, 
-            "value": "legal", 
-            "entity": "legal"
-          }
-        ], 
-        "intent": "faq_data", 
-        "text": "is your company legal"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 8, 
-            "end": 18, 
-            "value": "registered", 
-            "entity": "legal"
-          }
-        ], 
-        "intent": "faq_data", 
-        "text": "are you registered for business?"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 12, 
-            "end": 17, 
-            "value": "legal", 
-            "entity": "legal"
-          }
-        ], 
-        "intent": "faq_data", 
-        "text": "What is you legal status"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 22, 
-            "end": 32, 
-            "value": "regulation", 
-            "entity": "legal"
-          }
-        ], 
-        "intent": "faq_data", 
-        "text": "Are you controlled by regulation"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 14, 
-            "end": 22, 
-            "value": "services", 
-            "entity": "offers"
-          }
-        ], 
-        "intent": "faq_data", 
-        "text": "what are your services?"
+        "text": "how are you", 
+        "intent": "greet"
       }, 
       {
         "text": "have a nice day", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "cheers Dynamo", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "close the chat", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "cya Dynamo", 
         "intent": "goodbye"
       }, 
       {
@@ -286,7 +1166,23 @@
         "intent": "goodbye"
       }, 
       {
-        "text": "goodbye Dynamo", 
+        "text": "goodbye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "exit Dynamo", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "bye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "exit", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "have a nice day Dynamo", 
         "intent": "goodbye"
       }, 
       {
@@ -294,41 +1190,11 @@
         "intent": "goodbye"
       }, 
       {
-        "text": "bye", 
+        "text": "goodbye Dynamo", 
         "intent": "goodbye"
       }
     ], 
-    "entity_synonyms": [
-      {
-        "synonyms": [
-          "partner"
-        ], 
-        "value": "partners"
-      }, 
-      {
-        "synonyms": [
-          "service", 
-          "offer", 
-          "services"
-        ], 
-        "value": "offers"
-      }, 
-      {
-        "synonyms": [
-          "loc", 
-          "located"
-        ], 
-        "value": "location"
-      }, 
-      {
-        "synonyms": [
-          "company", 
-          "companies", 
-          "lender"
-        ], 
-        "value": "lenders"
-      }
-    ], 
+    "entity_synonyms": [], 
     "regex_features": []
   }
 }

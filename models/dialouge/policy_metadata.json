@@ -1,9 +1,30 @@
 {
   "action_fingerprints": {
-    "utter_goodbye": {
+    "utter_about_company": {
+      "slots": []
+    }, 
+    "utter_about_bot": {
+      "slots": []
+    }, 
+    "utter_about_partners": {
       "slots": []
     }, 
     "action_listen": {
+      "slots": []
+    }, 
+    "utter_goodbye": {
+      "slots": []
+    }, 
+    "utter_about_legal_status": {
+      "slots": []
+    }, 
+    "utter_about_services": {
+      "slots": []
+    }, 
+    "utter_about_cost_to_serve": {
+      "slots": []
+    }, 
+    "utter_about_lenders": {
       "slots": []
     }
   }, 

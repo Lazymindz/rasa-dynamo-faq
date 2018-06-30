@@ -4,18 +4,28 @@
     "entity_synonyms": [],
     "common_examples": [
       {
-        "text": "tell me about yourself",
+        "text": "What are you capabilities Dynamo",
         "intent": "about_bot",
         "entities": []
       },
+      {"text": "who are you", "intent": "about_bot", "entities": []},
+      {"text": "what can you do Dynamo", "intent": "about_bot", "entities": []},
+      {"text": "tell me about you", "intent": "about_bot", "entities": []},
       {"text": "about you", "intent": "about_bot", "entities": []},
-      {"text": "What can you do?", "intent": "about_bot", "entities": []},
-      {"text": "what are you", "intent": "about_bot", "entities": []},
+      {"text": "Dynamo", "intent": "about_bot", "entities": []},
       {
-        "text": "what are your capabilities",
+        "text": "What are you capabilities",
         "intent": "about_bot",
         "entities": []
-      }
+      },
+      {
+        "text": "tell me about you Dynamo",
+        "intent": "about_bot",
+        "entities": []
+      },
+      {"text": "who are you Dynamo", "intent": "about_bot", "entities": []},
+      {"text": "what can you do", "intent": "about_bot", "entities": []},
+      {"text": "about you Dynamo", "intent": "about_bot", "entities": []}
     ]
   }
 }

@@ -38,7 +38,7 @@ def run_model_init(domain_file="dynamo_domain.yml",
     agent.train(training_data,
                 augmentation_factor= 50,
                 epochs = 500,
-                batch_size = 10,
+                batch_size = 50,
                 validation_split = 0.2)
 
     agent.persist(model_path)
@@ -61,7 +61,7 @@ def run_bot_online(input_channel, interpreter,
 
 if __name__ == '__main__':
     utils.configure_colored_logging(loglevel="INFO")
-    # train_nlu()
-    # run_model_init()
+    #train_nlu()
+    #run_model_init()
     nlu_interpreter = RasaNLUInterpreter('models/nlu/default/intents')
     run_bot_online(ConsoleInputChannel(), nlu_interpreter)
