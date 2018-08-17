@@ -35,7 +35,9 @@ intents:
 slots: {}
 templates:
   utter_about_bot:
-  - text: 'Here are all the activities I can do : 1. xxx 2.yyy 3. zzz'
+  - text: 'Here are all the FAQs I can answer : 1. About Me 2. About our Company 3.
+      Services we offer 4. Who our partners are 5. lenders we work with 6. Our cost
+      to Serve 7. Legal Status'
   utter_about_company:
   - text: Dynamo is a brand new way to remortgage. But we aren’t newcomers. We’re
       building on 25 years of mortgage experience. To build a tool that empowers you,

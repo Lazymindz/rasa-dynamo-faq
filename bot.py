@@ -4,6 +4,7 @@ from __future__ import print_function
 from __future__ import unicode_literals
 
 import logging
+from ConfigParser import ConfigParser
 
 from rasa_nlu.training_data import load_data
 from rasa_nlu.config import RasaNLUModelConfig
@@ -13,10 +14,14 @@ from rasa_nlu import config
 from rasa_core import utils
 from rasa_core.agent import Agent
 from rasa_core.channels.console import ConsoleInputChannel
+from rasa_core.channels import HttpInputChannel
 from rasa_core.interpreter import RegexInterpreter
 from rasa_core.policies.keras_policy import KerasPolicy
 from rasa_core.policies.memoization import MemoizationPolicy
 from rasa_core.interpreter import RasaNLUInterpreter
+
+from rasa_slack_connector import SlackInput
+from rasa_core.channels.facebook import FacebookInput
 
 logger = logging.getLogger(__name__)
 
@@ -27,7 +32,7 @@ def train_nlu():
     model_directory = trainer.persist('./models/nlu', fixed_model_name='intents')
     return model_directory
 
-def run_model_init(domain_file="dynamo_domain.yml",
+def train_diag(domain_file="dynamo_domain.yml",
                           training_data_file='data/dialouge_stories/stories.md',
                           model_path='models/dialouge'):
     agent = Agent(domain_file,
@@ -43,7 +48,9 @@ def run_model_init(domain_file="dynamo_domain.yml",
 
     agent.persist(model_path)
 
-def run_bot_online(input_channel, interpreter,
+    return agent
+
+def train_diag_model_online(input_channel, interpreter,
                           domain_file="dynamo_domain.yml",
                           training_data_file='data/dialouge_stories/stories.md'):
     agent = Agent(domain_file,
@@ -59,9 +66,31 @@ def run_bot_online(input_channel, interpreter,
 
     return agent
 
+
+def run_bot(slack_params, console = False):
+    nlu_interpreter = RasaNLUInterpreter('models/nlu/default/intents')
+    agent = Agent.load('models/dialouge', interpreter=nlu_interpreter)
+
+    if console == True:
+        agent.handle_channel(ConsoleInputChannel())
+    else:
+        input_channel = SlackInput(slack_params['slack_dev_token'],
+                                    slack_params['slack_client_token'],
+                                    slack_params['verification_token'],
+                                    True)
+        agent.handle_channel(HttpInputChannel(5004, "/", input_channel))
+
+    return agent
+
+methods = {'train_nlu':train_nlu, 'train_diag':train_diag, 'run_bot':run_bot}
+
 if __name__ == '__main__':
     utils.configure_colored_logging(loglevel="INFO")
-    #train_nlu()
-    #run_model_init()
-    nlu_interpreter = RasaNLUInterpreter('models/nlu/default/intents')
-    run_bot_online(ConsoleInputChannel(), nlu_interpreter)
+    run_config = ConfigParser()
+    run_config.read('bot_config.ini')
+    run_mode = run_config.get('params','mode')
+    slack_params = {'slack_dev_token' : run_config.get('connectors','slack_dev_token'),
+                    'slack_client_token' : run_config.get('connectors','slack_client_token'),
+                    'verification_token' : run_config.get('connectors','verification_token')}
+
+    methods[run_mode](slack_params, console = False)
