@@ -4,7 +4,7 @@ from __future__ import print_function
 from __future__ import unicode_literals
 
 import logging
-from ConfigParser import ConfigParser
+from configparser import ConfigParser
 
 from rasa_nlu.training_data import load_data
 from rasa_nlu.config import RasaNLUModelConfig
@@ -93,4 +93,7 @@ if __name__ == '__main__':
                     'slack_client_token' : run_config.get('connectors','slack_client_token'),
                     'verification_token' : run_config.get('connectors','verification_token')}
 
-    methods[run_mode](slack_params, console = False)
+    if run_mode == 'run_bot':
+        methods[run_mode](slack_params, console = False)
+    else:
+        methods[run_mode]()
