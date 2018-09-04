@@ -2,6 +2,8 @@
 
 A new version of Rasa Core was released changing the modules used in bot.py. This library hence is old and may not work.
 
+https://github.com/RasaHQ/rasa_core/blob/master/CHANGELOG.rst
+
 https://forum.rasa.com/t/rasa-core-sdk-live-stream/826
 
 
